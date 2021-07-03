@@ -1,7 +1,7 @@
----
-title: "Environment"
----
 # Environment variables
+
+The behaviour of glog can be modified using a number of environment
+variables.
 
 - `GLOG_COLOR` – set whether color should be used 
 - `GLOG_LEVEL` – set the loglevel at start. Can be overwritten by the
