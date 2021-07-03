@@ -1,3 +1,6 @@
+---
+title: "Environment"
+---
 # Environment variables
 
 - `GLOG_COLOR` – set whether color should be used 
