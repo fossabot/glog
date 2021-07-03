@@ -2,18 +2,26 @@
 
 ## glog
 
-- *Time Format*:      ISO-8601
-- *Show caller*:      TRACE, DEBUG, ERROR, FATAL
-- *Short caller*:     yes
-- *Show caller line*: no
+- **Time Format**:      ISO-8601 (2006-01-02T15:04:05.000000-0700)
+- **Show caller**:      TRACE, DEBUG, ERROR, FATAL
+- **Short caller**:     yes
+- **Show caller line**: no
+- **Colors**:
+
+| Level | Color    |
+|-------|----------|
+| Trace | Blue     |
+| Debug | Cyan     |
+| Info  | Green    |
+| Warn  | Yellow   |
+| Error | Red      |
+| Fatal | Red+Bold |
 
 ## logrotation
 
-- *Permissions*:               600
-- *Maximum Filesize*:          32 MiB[^1]
-- *Retention (kept old logs)*: 2
-- *KeptPercent*:               5
-- *Compression*:               GZip
-- *Synchronous write*:         yes
-
-[^1]: see also: [reasoning](docs/reasoning.md)
+- **Permissions**:               600
+- **Maximum Filesize**:          32 MiB ([reasoning](docs/reasoning.md))
+- **Retention (kept old logs)**: 2
+- **KeptPercent**:               5
+- **Compression**:               GZip
+- **Synchronous write**:         yes
