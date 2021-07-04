@@ -1,5 +1,9 @@
 # Reasoning
 
+This is a list of questions that may come up. If some reason is still
+unclear to you, feel free to reach out to the mailing list in the
+README
+
 ## Attach stderr levels to stdout if stdout is redirected to a file
 
 When piping stdout into a file, chances are that you want to work with
@@ -42,3 +46,14 @@ revision is known, lines may very well be better for debugging as they
 allow pinpointing a message to their exact origin. This however, is
 not always the case. The function name does not change as much and is
 helpful in that it does not nearly change as often.
+
+## Why is it so damn slow?
+
+I think logging is like salt, the dosage is important. Log too much
+and nobody wants to look at the log. Log too few, and your logfiles
+are not worth much. glog is not supposed to be the fastest. glog is
+supposed to be "fast enough". To cut down the time it takes to write
+the files, this process is parallelized.
+
+If you feel like you want to improve the speed, feel free to send
+a patch at any time.
