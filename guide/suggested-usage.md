@@ -1,6 +1,7 @@
 ---
 toc: false
 ---
+
 # Suggested usage of glog
 
 glog is designed to stay out of your way, by doing things as you

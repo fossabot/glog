@@ -1,6 +1,7 @@
 ---
 toc: false
 ---
+
 # Using a custom log format
 
 Changing the log format is as easy as setting a custom formatting.

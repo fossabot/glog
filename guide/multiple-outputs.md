@@ -1,6 +1,7 @@
 ---
 toc: false
 ---
+
 # Logging to multiple files at once
 
 glog supports writing to as many outputs as you want. By default,

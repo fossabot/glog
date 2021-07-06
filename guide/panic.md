@@ -1,6 +1,7 @@
 ---
 toc: false
 ---
+
 # Log panics with go
 
 Reporting a panic is not that easy, if you don't know what lead to it.

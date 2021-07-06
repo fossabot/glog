@@ -1,3 +1,7 @@
+---
+toc: false
+---
+
 # Index
 
 ## Documentation
