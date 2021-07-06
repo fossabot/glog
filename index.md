@@ -17,3 +17,8 @@ toc: false
 - [Multiple outputs](guide/multiple-outputs.md)
 - [Using a custom message format](guide/custom-format.md)
 - [Suggested Usage](guide/suggested-usage.md)
+
+## Improvements
+
+- if you feel like this documentation is lacking, please reach out or
+  send a patch to improve it.
