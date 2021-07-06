@@ -31,12 +31,6 @@ handled/expected errors). In both cases the caller is also usually not
 relevant, as debugging happens primarily through the debug and trace
 levels.
 
-## The logrotation file is enormous
-
-I consider 32 MiB a medium sized logfile, allowing for an ample amount
-of logmessages (about 400.000 in my tests) while being fast enough to
-compress to not unnecessarily slow down the program.
-
 ## Caller shows only the function, not the line
 
 Lines are a very volatile mean of indicating a caller. Line 30 may

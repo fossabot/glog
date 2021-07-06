@@ -20,7 +20,7 @@
 ## logrotation
 
 - **Permissions**:               600
-- **Maximum Filesize**:          32 MiB ([reasoning](docs/reasoning.md))
+- **Maximum Filesize**:          4 MiB
 - **Retention (kept old logs)**: 2
 - **KeptPercent**:               5
 - **Compression**:               GZip
